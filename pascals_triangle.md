@@ -3,7 +3,6 @@
 #include<stdio.h>
 
     int main(){
-
     int n;
     printf("no of lines :");
     scanf("%d", &n);
