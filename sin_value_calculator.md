@@ -22,7 +22,8 @@ using namespace std;
         j = j * (-1);
     }
 
-    printf("sin(%.2lf) = %.2lf", x, sin_value);
+    cout<<fixed<<setprecision(2)<<x;
+    
     return 0;
 }
 ```
