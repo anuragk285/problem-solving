@@ -18,7 +18,10 @@ void TOH(int n, int A, int B, int C){
 }
 int main(){
 
-    TOH(4, 1, 2, 3);
+    int n;
+    cout<<"n = ";
+    cin>>n;
+    TOH(n, 1, 2, 3);
 
     return 0;
 }
